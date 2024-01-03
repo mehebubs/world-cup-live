@@ -1,0 +1,237 @@
+/* ----------------
+       Fonts
+---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ------------------=========UTILITIES=======---------------------- */
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------<<<<FIRST-SECTION STYLES>>>>-------------- */
+.first-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.first-container {
+    border-radius: 30px;
+    background: #161616;
+    display: grid;
+    grid-template-columns: 531px 581px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1321px;
+    height: 646px;
+}
+
+.container-details {
+    margin-top: 33px;
+}
+
+.container-details h1 {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 0;
+}
+
+.container-details p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 39px;
+}
+
+.container-details button {
+    font-size: 20px;
+    border: 0;
+    color: #FFF;
+    padding: 16px 25px;
+    border-radius: 5px;
+    background-color: #D00;
+}
+
+.container-details i {
+    margin-left: 10px;
+}
+
+.thumblain img {
+    margin-left: 20px;
+    margin-top: 33px;
+    width: 581px;
+    height: 613px;
+}
+
+/* <<<<<<<<<  SECOND-SECTION  >>>>>>>>>>> */
+.second-section-head {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.form-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    margin-right: 24px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 252px;
+    height: 252px;
+}
+
+form .blog {
+    color: #161616;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 104px;
+}
+
+form .group {
+    padding: 20px 80px;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+form .match {
+    padding: 20px 39px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    background-color: #D00;
+    border-radius: 10px;
+}
+
+.second-section {
+    width: 1321px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    width: 984px;
+
+}
+
+.players img {
+    width: 100%;
+}
+
+.players {
+    width: 312px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+}
+
+.flag-flex {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: 53px 20.92px 0px 30px;
+}
+
+.flags {
+    margin: 0 20px;
+}
+
+.players-details {
+    padding: 0px 20px 20px 20px;
+}
+
+
+.flags-data {
+    color: #161616;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.players-time {
+    line-height: 19.721px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.button-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-2 button {
+    padding: 12px 29px;
+    border: 0;
+    color: #FFF;
+    background-color: #D00;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.button-2 {
+    display: none;
+}
+
+/* <<<<<<<<  FOOTER-LAST-PART  >>>>>>>> */
+footer {
+    background-color: #161616;
+    width: 1600px;
+    height: 444px;
+    text-align: center;
+    margin-top: 130px;
+    padding-top: 130px;
+}
+
+.goal {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid #ffffff1a;
+}
+
+.datas {
+    display: flex;
+    justify-content: center;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 898px;
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+}
